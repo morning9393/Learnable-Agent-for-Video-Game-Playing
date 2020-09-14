@@ -1,0 +1,19 @@
+Required Environment:
+1, Linux Ubuntu 18.04
+2, python 3.6
+3, tensorFlow 2.3.0
+4, gym 0.17.2
+5, opencv-python 4.1.2.30
+6, numpy 1.18.5
+
+Usage:
+1, Download (and unzip) or clone the code from github.
+2, Enter the src directory.
+3, Run the file 'gui_demo.py' with command line 'python3 gui_demo.py'
+4, Input or adjust the parameters in the graphic interface.
+5, Click train button to start model training.
+6, You will see the performance of agents in a pop-up window and can investigate its improvement as time goes on
+7, For example, after about 24 hours training in a modern machine, the agent might reach a human level performance in Breakout.
+8, The details during the training process will be stored in log.txt.
+9, You could stop the training process at anytime through stop button and the weight will be stored in backup directory.
+
